@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=EB+Garamond:ital,wght@0,400;1,400&family=Cinzel:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-gold:          #C8970A;
+    --color-gold-light:    #E8C96A;
+    --color-gold-dark:     #8B6400;
+    --color-jungle-dark:   #1B4332;
+    --color-jungle-mid:    #2D6A4F;
+    --color-jungle-light:  #52B788;
+    --color-cream:         #F8F3E8;
+    --color-cream-dark:    #EDE4CC;
+    --color-brown:         #3E2723;
+
+    --font-cinzel:     'Cinzel', serif;
+    --font-cormorant:  'Cormorant Garamond', serif;
+    --font-garamond:   'EB Garamond', serif;
+}
+
+@layer base {
+    html { scroll-behavior: smooth; }
+    body { font-family: 'EB Garamond', serif; }
+}
+
+@layer components {
+    .btn-gold {
+        background-color: #C8970A;
+        color: #fff;
+        font-family: 'Cinzel', serif;
+        font-size: .75rem;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        padding: .75rem 1.25rem;
+        border-radius: .375rem;
+        transition: background-color .2s;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .btn-gold:hover { background-color: #8B6400; }
+
+    .btn-outline-gold {
+        border: 1px solid #C8970A;
+        color: #8B6400;
+        font-family: 'Cinzel', serif;
+        font-size: .75rem;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        padding: .75rem 1.25rem;
+        border-radius: .375rem;
+        background: none;
+        cursor: pointer;
+        transition: background-color .2s, color .2s;
+    }
+    .btn-outline-gold:hover { background-color: #C8970A; color: #fff; }
+
+    .section-tag {
+        font-family: 'Cinzel', serif;
+        font-size: .75rem;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        color: #C8970A;
+        text-align: center;
+        display: block;
+    }
+    .section-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-style: italic;
+        color: #1B4332;
+        font-size: clamp(2rem, 5vw, 3.2rem);
+        text-align: center;
+    }
+    .section-divider {
+        width: 5rem;
+        height: 1px;
+        background: linear-gradient(to right, transparent, #C8970A, transparent);
+        margin: .75rem auto;
+    }
+}
