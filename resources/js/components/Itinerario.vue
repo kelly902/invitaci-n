@@ -2,11 +2,11 @@
 import { ConciergeBell, Star, Heart, GlassWater, Utensils } from 'lucide-vue-next'
 
 const items = [
-    { time: '17:30 hrs', icon: ConciergeBell,       name: 'Recepción de Invitados',    description: 'Bienvenida a nuestros invitados. Los esperamos para comenzar juntos esta noche especial.' },
-    { time: '18:00 hrs', icon: Star,        name: 'Entrada de Ivanna',          description: 'El momento más esperado de la noche. Recibamos a la festejada como se merece.' },
-    { time: '18:30 hrs', icon: Heart,       name: 'Culto de Acción de Gracias', description: 'Un momento especial para agradecer a Dios por la vida y los XV años de Ivanna.' },
-    { time: '20:10 hrs', icon: GlassWater,  name: 'Brindis',                    description: 'Levantemos las copas para celebrar a Ivanna y desearle lo mejor en esta nueva etapa.' },
-    { time: '20:20 hrs', icon: Utensils,    name: 'Cena',                       description: 'Disfruta de una deliciosa cena preparada especialmente para esta noche.' },
+    { time: '18:30 hrs', icon: ConciergeBell,       name: 'Recepción de Invitados',    description: 'Bienvenida a nuestros invitados. Los esperamos para comenzar juntos esta noche especial.' },
+    { time: '19:00 hrs', icon: Star,        name: 'Entrada de Ivanna',          description: 'El momento más esperado de la noche. Recibamos a la festejada como se merece.' },
+    { time: '20:30 hrs', icon: Heart,       name: 'Culto de Acción de Gracias', description: 'Un momento especial para agradecer a Dios por la vida y los XV años de Ivanna.' },
+    { time: '21:10 hrs', icon: GlassWater,  name: 'Brindis',                    description: 'Levantemos las copas para celebrar a Ivanna y desearle lo mejor en esta nueva etapa.' },
+    { time: '22:20 hrs', icon: Utensils,    name: 'Cena',                       description: 'Disfruta de una deliciosa cena preparada especialmente para esta noche.' },
 ]
 </script>
 

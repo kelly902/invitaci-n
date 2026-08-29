@@ -4,6 +4,16 @@ import EventCard from '@/components/EventCard.vue'
 const events = [
     {
         icon: '⛪',
+        image: '',  // ← agrega esto
+        title: 'Culto de Accion de Gracias',
+        when: '5 de diciembre de 2025, ?:00 hrs.',
+        place: 'Iglesia familiar principe de paz',
+        address: 'Río Usumacinta, Casa Blanca, Casa Blanca 1ra Secc, 86060 Villahermosa, Tab.',
+        mapUrl: 'https://maps.app.goo.gl/vVNvC8QAVTgSe3h88',
+      },
+
+    {
+        icon: '🎉',
         image: '/images/Salon.jpg',  // ← agrega esto
         title: 'Salon de Eventos Premier',
         when: '5 de diciembre de 2025, 6:00 pm.',
@@ -11,14 +21,7 @@ const events = [
         address: ' Salón Premier, Pablo Romero Olive S/N, Ra. Plutarco Elías Calles 3ra sección, C.P. 86294 Villahermosa, Tab.',
         mapUrl: 'https://maps.app.goo.gl/4NYHPJw7SxLT95G98',
     },
-    //{
-    //    icon: '🎉',
-    //   title: 'Recepción',
-    //    when: '5 de diciembre de 2025, 18:00 hrs.',
-    //    place: '[NOMBRE DEL SALÓN]',
-    //    address: '[CALLE, NÚMERO, COLONIA, CIUDAD]',
-    //    mapUrl: 'https://maps.google.com/?q=REEMPLAZA+CON+DIRECCION',
-    //  },
+    
     
     
    

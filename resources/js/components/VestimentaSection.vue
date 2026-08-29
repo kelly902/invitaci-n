@@ -13,7 +13,7 @@ const cards = [
     {
         icon: '🚫', title: 'Evitar',
         image: '/images/Cancel.png',  // ← agrega esto
-        description: 'Vestimenta formal, evitar los tonos amarillos — están reservados para la quinceañera. También evitar todos los tonos de Amarillo, Verde y Plateado ',
+        description: 'Evitar los tonos amarillos — están reservados para la quinceañera. También evitar todos los tonos de Amarillo, Verde y Plateado ',
         colors: [{ hex: '#FFD700', name: 'Amarillo/Dorado' }, { hex: '#50C878', name: 'Verde' }, { hex: '#C0C0C0', name: 'Plateado' }],
     },
 ]

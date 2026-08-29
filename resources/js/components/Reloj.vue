@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 
-const EVENT_DATE = new Date('2026-12-05T18:00:00')
+const EVENT_DATE = new Date('2026-12-05T19:00:00')
 const diff = ref(EVENT_DATE - new Date())
 let timer
 
