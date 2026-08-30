@@ -53,16 +53,17 @@
     <div class="relative z-20 text-center w-full px-6 pb-12 pt-4">
         <div class="w-28 h-px mx-auto my-4" style="background:linear-gradient(to right,transparent,#C8970A,transparent)"></div>
         <p class="font-cinzel text-cream tracking-widest text-lg">5 de Diciembre · 2026</p>
-        <p class="mt-8 font-cinzel text-yellow-300 text-xs tracking-widest uppercase animate-bounce">Desliza ↓</p>
+        <!-- Botón música -->
+        <div class="flex items-center justify-center gap-2 mt-6 mb-2">
+            <span id="musicLabel" class="font-cinzel text-xs tracking-widest px-3 py-1 rounded-full border border-yellow-500 text-yellow-300 hidden"
+                style="background:rgba(13,43,31,.75)"></span>
+            <button id="musicBtn" onclick="toggleMusic()"
+                class="w-12 h-12 rounded-full border-2 border-yellow-500 flex items-center justify-center text-xl transition-colors"
+                style="background:rgba(13,43,31,.75)">🎵</button>
+        </div>
+        <p class="mt-4 font-cinzel text-yellow-300 text-xs tracking-widest uppercase animate-bounce">Desliza ↓</p>
     </div>
-     <!-- Botón música -->
-    <div class="absolute top-5 right-5 z-30 flex items-center gap-2">
-        <span id="musicLabel" class="font-cinzel text-xs tracking-widest px-3 py-1 rounded-full border border-yellow-500 text-yellow-300 hidden"
-            style="background:rgba(13,43,31,.75)"></span>
-        <button id="musicBtn" onclick="toggleMusic()"
-            class="w-12 h-12 rounded-full border-2 border-yellow-500 flex items-center justify-center text-xl transition-colors"
-            style="background:rgba(13,43,31,.75)">🎵</button>
-    </div>
+     
     <audio id="audio" loop>
         <source src="audio/cancion.mp3" type="audio/mpeg" />
     </audio>
